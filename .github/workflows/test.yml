@@ -1,0 +1,13 @@
+name:        "Test Actions times"
+description: "This just tests the time an Action will take"
+
+on: workflow_dispatch
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - name: "Test Ubuntu latest"
+      run: |
+        echo "${{ github.actor }} on ${{ runner.os }}"
+        sleep 1
+
