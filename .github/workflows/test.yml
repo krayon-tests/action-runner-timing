@@ -1,5 +1,4 @@
 name:        "Test Actions times"
-description: "This just tests the time an Action will take"
 
 on: workflow_dispatch
 
